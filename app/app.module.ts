@@ -5,11 +5,14 @@ import {CourseComponet} from './course.componet';
 import {AutorsComponent} from './autors.component';
 import {CourseService} from './course.service';
 import {AuthorService} from './author.service';
-import {AutoGrowDirective} from './auto-grow.directive';
+import {BtnComponent} from './btn.componet';
+import {TxtComponent} from './txt2bind.component';
+import { FormsModule } from '@angular/forms';
+import {StarComponent} from './star.componet';
 
 @NgModule({
-  imports:      [ BrowserModule ],
-  declarations: [ AppComponent,CourseComponet,AutorsComponent,AutoGrowDirective],
+  imports:      [ BrowserModule,FormsModule ],
+  declarations: [ AppComponent,BtnComponent,TxtComponent,StarComponent],
   bootstrap:    [ AppComponent ],
   providers: [CourseService,AuthorService]
 })

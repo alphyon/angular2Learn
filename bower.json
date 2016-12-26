@@ -1,0 +1,18 @@
+{
+  "name": "angular2Lern",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "José Antonio Henríquez Chavarría <alphyon21@yahoo.es>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/alphyon/angular2Learn",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

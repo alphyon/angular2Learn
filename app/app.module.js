@@ -11,11 +11,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
 var app_component_1 = require("./app.component");
-var course_componet_1 = require("./course.componet");
-var autors_component_1 = require("./autors.component");
 var course_service_1 = require("./course.service");
 var author_service_1 = require("./author.service");
-var auto_grow_directive_1 = require("./auto-grow.directive");
+var btn_componet_1 = require("./btn.componet");
+var txt2bind_component_1 = require("./txt2bind.component");
+var forms_1 = require("@angular/forms");
+var star_componet_1 = require("./star.componet");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -23,8 +24,8 @@ var AppModule = (function () {
 }());
 AppModule = __decorate([
     core_1.NgModule({
-        imports: [platform_browser_1.BrowserModule],
-        declarations: [app_component_1.AppComponent, course_componet_1.CourseComponet, autors_component_1.AutorsComponent, auto_grow_directive_1.AutoGrowDirective],
+        imports: [platform_browser_1.BrowserModule, forms_1.FormsModule],
+        declarations: [app_component_1.AppComponent, btn_componet_1.BtnComponent, txt2bind_component_1.TxtComponent, star_componet_1.StarComponent],
         bootstrap: [app_component_1.AppComponent],
         providers: [course_service_1.CourseService, author_service_1.AuthorService]
     }),
